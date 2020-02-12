@@ -23,6 +23,7 @@ input{
 	width: 50%;
 	border: 2px solid black;
 	text-align: center;
+	margin-top: 30px;
 }
 #submit{
 	width: 100%;
@@ -33,7 +34,8 @@ input{
 	#formContainer{
 		text-align: center;
 		margin: auto;
-		width: 100%
+		width: 100%;
+		display: block;
 	}
 	#submit{
 		width: 60%;
@@ -42,14 +44,23 @@ input{
 	label{
 		font-size: 1.5em;
 	}
+	input{
+		display: block;
+		text-align: center;
+	}
 }
 @media screen and (min-width: 768px){
 	#formContainer{
 		margin: auto;
 		width: 80%;
+		display: block;
 	}
 	#submit{
 		width: 40%;
+		display: block;
 	}
-	
+	input{
+		display: block;
+		text-align: center;
+	}
 }
