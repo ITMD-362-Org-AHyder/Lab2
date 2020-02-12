@@ -29,6 +29,8 @@ input{
 	width: 100%;
 	display: block;
 	margin: 20px 0;
+	margin-right: auto;
+	margin-left: auto;
 }
 @media screen and (min-width: 480px){
 	#formContainer{
@@ -39,8 +41,6 @@ input{
 	}
 	#submit{
 		width: 60%;
-		display: block;
-		margin: 20px 0;
 	}
 	label{
 		font-size: 1.5em;
@@ -58,8 +58,6 @@ input{
 	}
 	#submit{
 		width: 40%;
-		display: block;
-		margin: 20px 0;
 	}
 	input{
 		display: block;
